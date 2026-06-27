@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Página Pessoal</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body{
+    background:#0f0b1f;
+    color:#f4f4f4;
+    line-height:1.6;
+}
+
+header{
+    background:linear-gradient(135deg,#2d0b63,#5b21b6);
+    padding:60px 20px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.4);
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    margin-top:10px;
+    color:#ddd;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+section{
+    background:#18122d;
+    margin:30px 0;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+    transition:.3s;
+}
+
+section:hover{
+    transform:translateY(-5px);
+}
+
+h2{
+    color:#bb86fc;
+    margin-bottom:15px;
+    border-left:5px solid #8b5cf6;
+    padding-left:10px;
+}
+
+.info{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#241b42;
+    padding:20px;
+    border-radius:12px;
+}
+
+.card h3{
+    color:#c084fc;
+    margin-bottom:10px;
+}
+
+.lista{
+    list-style:none;
+}
+
+.lista li{
+    padding:8px 0;
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#bbb;
+}
+
+.botao{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#8b5cf6;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.botao:hover{
+    background:#a855f7;
+}
+
+@media(max-width:700px){
+    header h1{
+        font-size:2.2rem;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Nome da Estudante</h1>
+        <p>Estudante • Aprendiz • Apaixonada por Tecnologia</p>
+
+        <a href="#sobre" class="botao">
+            Conheça mais
+        </a>
+    </div>
+</header>
+
+<div class="container">
+
+<section id="sobre">
+<h2>Sobre Mim</h2>
+
+<p>
+Olá! Meu nome é <strong>Nome da Estudante</strong>. Sou estudante e estou
+sempre buscando aprender novas tecnologias, desenvolver habilidades e crescer
+profissionalmente. Gosto de desafios, inovação e de trabalhar em equipe.
+</p>
+
+</section>
+
+<section>
+
+<h2>Informações Pessoais</h2>
+
+<div class="info">
+
+<div class="card">
+<h3>Nome</h3>
+<p>Nome Completo</p>
+</div>
+
+<div class="card">
+<h3>Idade</h3>
+<p>18 anos</p>
+</div>
+
+<div class="card">
+<h3>Cidade</h3>
+<p>Sua Cidade</p>
+</div>
+
+<div class="card">
+<h3>Objetivo</h3>
+<p>Desenvolver conhecimentos na área de tecnologia.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Estudos</h2>
+
+<ul class="lista">
+<li>📚 Curso Técnico ou Graduação</li>
+<li>💻 Desenvolvimento Web</li>
+<li>🎨 Design de Interfaces</li>
+<li>🗄️ Banco de Dados</li>
+<li>☁️ Computação em Nuvem</li>
+</ul>
+
+</section>
+
+<section>
+
+<h2>Interesses</h2>
+
+<div class="info">
+
+<div class="card">
+<h3>Tecnologia</h3>
+<p>Programação, Inteligência Artificial, Desenvolvimento Web.</p>
+</div>
+
+<div class="card">
+<h3>Leitura</h3>
+<p>Livros de tecnologia, ficção e desenvolvimento pessoal.</p>
+</div>
+
+<div class="card">
+<h3>Criatividade</h3>
+<p>Design, fotografia, criação de conteúdo e inovação.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Habilidades</h2>
+
+<ul class="lista">
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>Git e GitHub</li>
+<li>Trabalho em equipe</li>
+<li>Comunicação</li>
+</ul>
+
+</section>
+
+<section>
+
+<h2>Projetos</h2>
+
+<p>
+Aqui você pode apresentar seus trabalhos, projetos acadêmicos,
+sites desenvolvidos ou pesquisas realizadas.
+</p>
+
+</section>
+
+<section>
+
+<h2>Contato</h2>
+
+<p><strong>Email:</strong> email@exemplo.com</p>
+
+<p><strong>LinkedIn:</strong> linkedin.com/in/seuperfil</p>
+
+<p><strong>GitHub:</strong> github.com/seuusuario</p>
+
+</section>
+
+</div>
+
+<footer>
+
+<p>© 2026 • Página Pessoal da Estudante</p>
+
+</footer>
+
+</body>
+</html>
