@@ -85,11 +85,11 @@ A interface adapta automaticamente seu layout para diferentes tamanhos de tela, 
 
 Estudante apaixonada por tecnologia, desenvolvimento web e aprendizado contínuo.
 
-GitHub: https://github.com/seuusuario
+GitHub: https://github.com/Lkaenna
 
-LinkedIn: https://linkedin.com/in/seuperfil
+LinkedIn: https://linkedin.com/in/layane-braz
 
-E-mail: email@exemplo.com
+E-mail: laykae@outlook.com
 
 ---
 
