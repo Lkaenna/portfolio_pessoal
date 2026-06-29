@@ -81,7 +81,7 @@ A interface adapta automaticamente seu layout para diferentes tamanhos de tela, 
 
 ## 👩‍💻 Autora
 
-**Nome da Estudante**
+**Layane Braz**
 
 Estudante apaixonada por tecnologia, desenvolvimento web e aprendizado contínuo.
 
